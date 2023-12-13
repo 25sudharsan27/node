@@ -3,7 +3,7 @@
 // CommonJs, every file is module (by default)
 
 const names = require('./5-module2');
-const sayHi=require('./7-modfunc');
+const sayHi=require('../Basics/7-modfunc');
 const data = require('./6-alternativemodule');
 console.log(data);
 console.log(names.name1);
@@ -14,4 +14,4 @@ console.log(names.name1);
 sayHi('Sudharsan');
 sayHi(names.name);
 sayHi(names.name1);
-require('./8-exp-function')
+require('../8-exp-function')

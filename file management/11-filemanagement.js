@@ -11,7 +11,7 @@ const {readFile,writeFile, readFileSync,writeFileSync} = require('fs')
 // writeFileSync('./current/result.txt',`Here is the result : ${first}, ${second}`);
 
 
-//Asynchronous
+//synchronous
 // readFile('./current/test.txt','utf8',(err,result)=>{
 //     if(err){
 //         console.log(err);
