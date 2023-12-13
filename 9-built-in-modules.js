@@ -1,5 +1,9 @@
+// OS module
+
 const os= require('os')
 
+console.log(typeof os);
+console.log(typeof a);
 const user= os.userInfo()
 
 console.log(user) 
