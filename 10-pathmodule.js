@@ -10,5 +10,5 @@ console.log(filepath);
 const base =path.basename(filepath);
 console.log(base)
 
-const absolute = path.resolve(__dirname,'content','subfolder','sudharsan.txt');
+const absolute = path.resolve(__dirname);
 console.log(absolute);
